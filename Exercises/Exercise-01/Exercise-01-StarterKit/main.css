@@ -1,0 +1,29 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+.pattern-1{
+	height: 500px;
+	/* create pattern-1 CSS here */
+}
+
+.pattern-2{
+	height: 100%;
+	/* create pattern-2 CSS here */
+}
+
+.pattern-3{	
+	height: 500px;
+	/* create pattern-3 CSS here */
+	
+}
+
+.pattern-4{
+	height: 100%;
+}
+
