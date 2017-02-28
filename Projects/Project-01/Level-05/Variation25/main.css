@@ -1,0 +1,10 @@
+body {
+	color: black;
+	font-size: 48pt;
+	font-family: arial;
+
+}
+
+body:hover {
+	color: pink;
+}

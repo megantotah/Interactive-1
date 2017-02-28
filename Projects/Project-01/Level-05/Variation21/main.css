@@ -1,0 +1,22 @@
+body{
+
+	background:white;
+	font-family: sans-serif;
+}
+
+.talking-head{
+	transition: font-size, 3s, ease;
+	font-weight: 700;
+	font-size: 3em;
+	text-decoration: underline;
+	width: 25%;
+	padding: 20px;
+}
+
+.talking-head:hover{
+	font-weight: 700;
+	font-size: 6em;
+	text-decoration: underline;
+	width: 25%;
+	padding: 20px;
+}
