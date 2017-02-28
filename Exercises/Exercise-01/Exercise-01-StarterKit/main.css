@@ -6,33 +6,22 @@ body{
 
 	background:white;
 }
-
-.pattern-1{
+#circle {
 	width: 100px;
 	height: 100px;
-	background: red;
-	position: absolute;
+	background: ;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 }
 
-	/* create pattern-1 CSS here */
-}
-
-.pattern-2{
-	width: 50px;
-	height: 50px;
-	background: blue;
-	position: fixed;
-
-	/* create pattern-2 CSS here */
-}
-
-.pattern-3{	
-	height: 500px;
-	/* create pattern-3 CSS here */
+#circle {
+	width: 100px;
+	height: 100px;
+	background: pink;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 	
-}
-
-.pattern-4{
-	height: 100%;
 }
 
