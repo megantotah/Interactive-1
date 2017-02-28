@@ -23,4 +23,14 @@ h1:after {
 	color: rgba(255,0,0,0.5);   
 
 }
+
+h1:hover {
+
+	content: "Many say that Dreams are lovely. They help us in discovery And bring our imagination to life. They allow us to convey The dreams we are afraid to dream, And we let them flow down the stream To Forgottenland. But there are some special dreams, The ones that become a reality. These are rare, an abnormality, Because society has taught us to pick Up the pencil and never write the book; To run away from what we do not know, And simply let things go. And we let them.";
+
+	position: absolute; left: 10px; top: 5px;
+
+	color: purple;   
+
+}
 	
