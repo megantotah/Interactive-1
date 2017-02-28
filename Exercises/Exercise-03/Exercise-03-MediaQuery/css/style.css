@@ -46,13 +46,13 @@ body {
 h1{
 	font-size: 2em;
 	font-family: sans-serif;
-	color: blue
+	color: purple;
 
 }
 
 h2{
 	font-family: sans-serif;
-	color: blue
+	color: purple;
 
 }
 
@@ -70,7 +70,7 @@ h3{
 .decorative{
 	position:absolute;
 	top: 45%;
-	left: 15%;
+	left: 45%;
 	width: 100%;
 
 }
@@ -80,7 +80,7 @@ h3{
 	height: 400px;
 	background: rgba(0,0,255,0.5);
 	display: inline-block;
-	margin-right: 15%;
+	margin-right: 30%;
 }
 
 
