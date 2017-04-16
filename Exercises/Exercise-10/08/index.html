@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+			var myVideo = document.getElementById("beachy");
+
+				myVideo.pause();
+
+				$("#doorbell")[0].play();
+		/*
+				var dogAudio = $("#bark")[0];
+				dogAudio.play();
+		*/
+				var dogAudio = $("#bark")[0];
+				$("#box1").mouseenter(function(){
+					dogAudio.play();
+					myVideo.play();
+				});
+
+				$("#box1").mouseout(function(){
+					myVideo.pause();
+				});
+
+				$("#click").click(function(){
+					$("#beachy").clone().appendTo("#box1");	
+				});
+				
+			});
+
+		</script>
+
+		<style>
+			#box1{
+				width: 200px;
+				height: 200px;
+				background-image: url(assets/dog.png);
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a id="click">Scroll over the cute dog picture to play video!</a>
+		<div id="box1">
+		</div>
+
+
+		<audio id= "doorbell">
+			<source src="assets/" type="audio/mp3">
+		</audio>
+
+	
+<!--
+		<audio autoplay>
+			<source src="assets/meow.wav" type="audio/wav">
+		</audio>
+-->
+
+		<audio id="bark">
+			<source src="assets/Ukelele Music Fade copy.mp3" type="audio/wav">
+		</audio>
+
+
+		<video id="beachy" width="400" autoplay>
+			<source src="assets/Sophiemovingbackandforth copy.mp4">
+			Sorry, your browser doesn't support HTML5 video :(
+		</video>
+
+		
+	</body>
+</html>
